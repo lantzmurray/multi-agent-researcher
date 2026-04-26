@@ -1,0 +1,21 @@
+Project 11: Multi-Agent Research Assistant
+
+ERROR ENCOUNTERED:
+- Ollama API timeout when running the multi-agent research pipeline
+- The LLaMA 2 model takes too long to respond on this hardware (RX580)
+
+ROOT CAUSE:
+- Hardware limitations (RX580 GPU) cannot handle LLaMA 2 inference quickly
+- Same issue as Projects 6-10 (mistral timeouts)
+
+STATUS:
+- Code created correctly
+- Virtual environment set up
+- All agent files created (search, summarize, checker, report)
+- Backend API created
+- Frontend Streamlit app created
+
+RECOMMENDATION:
+- The code is functional but requires faster hardware or cloud-based LLM API
+- For local testing on RX580, consider using smaller/faster models
+- Alternatively, use cloud services like OpenAI or Anthropic
