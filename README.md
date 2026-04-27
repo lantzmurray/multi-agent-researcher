@@ -2,6 +2,10 @@
 
 A team of specialized AI agents that collaborate like human analysts to produce comprehensive research reports. Perfect for complex research tasks requiring multiple perspectives and thorough analysis.
 
+## Screenshot
+
+![MultiAgentResearch](MultiAgentResearch.png)
+
 ## Features
 
 - **Multi-Agent Collaboration**: Four specialized AI agents work together on research tasks

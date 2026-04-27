@@ -1,40 +1,41 @@
-# Python
+# Python caches and build artifacts
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
 build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
 *.egg-info/
-.installed.cfg
-*.egg
+.pytest_cache/
+.coverage
+htmlcov/
 
 # Virtual environments
 venv/
-ENV/
+.venv/
 env/
+ENV/
 
-# IDE
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-
 # Logs
 *.log
+
+# Local runtime data
+memory/*.json
+scheduled_jobs.json
+uploads/
+
+# Generated media
+*.wav
+*.mp3
